@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Main from './components/Main';
 import './App.css';
 
 class App extends Component {
@@ -8,11 +9,11 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Goldis Sausage</h1>
+          <h1 className="App-title">Goldis Sausage Blog</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="App-SausageRecipes">
+          <p className="App-intro">This is the main section of my blog.</p>
+        </div>
       </div>
     );
   }
